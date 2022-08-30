@@ -6,6 +6,10 @@
       document.getElementById("titleScreen").style.top="-100vh";
              loop();
            }
+           function hide2() {
+      document.getElementById("controlScreen").style.top="-100vh";
+             loop();
+           }
     </script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
@@ -18,16 +22,25 @@
      <div id="author"> 
       by Agoody
       </div>
+      <div id="controlScreen" onclick="hide2()">
+        <div id="titleControl">
+          Controls
+          </div>
+      <h2>Controls</h2>
+    <p> Mouse = Control "21"<br>
+        Click = Star Command<br>
+        Space = 2nd ring of circles</p>
       <br>
       <br>
-
       
  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DlSsIKn3HTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
       <br>
       <br>
       <button onclick="hide()">Start</button>
+      <button onclick="hide2()">Controls</button>
     </div>
     <script src="sketch.js"></script>
+    <script src="index copy.html"></script>
   
  </body></html>
