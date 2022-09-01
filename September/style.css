@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+};
+
+#titleScreen {
+  position: absolute;
+  top: 0px; 
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 20vh;
+  font-size: 20px;
+  font-family: Courier;
+  /*List of fonts: https://blog.hubspot.com/website/web-safe-html-css-fonts */
+}
+
+#title {
+  font-size: 36px;
+}
+#titleScreen iframe {
+  width: 50%;
+  height: auto;
+}
+
+button {
+  font-size: 20px;
+  /*List of fonts: https://blog.hubspot.com/website/web-safe-html-css-fonts */
+  font-family: Courier;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#controlScreen {
+  position: absolute;
+  top: 0px; 
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 20vh;
+  font-size: 20px;
+  font-family: Courier;
+  /*List of fonts: https://blog.hubspot.com/website/web-safe-html-css-fonts */
+}
+#titleControl {
+  font-size: 36px;
+}
+#controlScreen iframe {
+  width: 50%;
+  height: auto;
+}
