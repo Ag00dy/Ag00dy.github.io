@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Downloads/my-app"
+		},
+		{
+			"path": "../../../../Downloads/JSONex"
+		},
+		{
+			"path": "../../../../Downloads/handposeLite"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ag00dy.github.io"
+	}
+}
