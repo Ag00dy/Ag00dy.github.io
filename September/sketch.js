@@ -9,8 +9,9 @@ function draw() {
 let sx = width/2 + (390,280) * cos(frameCount/10)
 let cy = height/2 + (280,280) * sin(frameCount/10)
   background(0,0,0,50);
-  fill(0);
+  fill(20);
 
+  
   if (mouseIsPressed){
 for (var w = 0; w <= width*.228; w = w + 25) { 
 for (var h = 0; h <= height; h = h + 25) {
